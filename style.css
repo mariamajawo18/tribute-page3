@@ -1,0 +1,13 @@
+.card img {
+  width: 100%;
+}
+.contain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:1em;
+}
+@media screen and (max-width: 768px){
+    .contain {
+      grid-template-columns: 1fr;
+    }
+}
